@@ -16,7 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         * Test your custom class here.
 
         */
+        let test = Boat(name:"t", maxSpeedKnots: 3.0)
         
+        
+        
+        print(test.name)
+
+        print(test.maxSpeedKnots)
         // Do not alter
         return true  //
     }   //////////////
